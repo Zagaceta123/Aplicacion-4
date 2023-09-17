@@ -1,0 +1,15 @@
+1. git config --global user.name "Zagaceta123"				|Iniciar usuario 
+2. git config --global user.email "rz_sebas@hotmail.com"		|Iniciar correo
+3. git config --global -l						|Verificar usuario o correo
+cd D:\Documentos\semana 4 aplicaciones web\aplicacion4			|Se selecciona la carpeta que quiere subirse
+d:									|on esto cambias el disco donde se encuetnra el archivo
+4. git init								|se inicia el got con la carpeta seleccionada
+5. git status								|Se puede verificar el estados de las carpertas si estan subidas en el remoto
+git checkout -b ejecicio1						|Con esto creas una rama local donde solo se guardara en la pc
+git checkout master							|Es para regresar a la rama master (Es la rama principal)
+6. git commit -m "nuevo"						|el commit ayuda a agregar las modificaciones con algun nombre al remoto
+git log 								|visualiar los commits que has hecho 
+7. git branch								|visualizar la master oadicionales
+git remote add origin https://github.com/Zagaceta123/Aplicacion-4.git	| agregar al remoto y poder subir al github
+8. git push origin master						|Pasa subir a gitub
+9. git remote set-url origin https://Zagaceta123github.com/Zagaceta123/Aplicacion-4.git		| con este comando se resetea para poder subir o tambien se puede modificar desde la carpeta.git si es que no deja subir al git hub con el paso 8
