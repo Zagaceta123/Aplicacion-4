@@ -32,7 +32,7 @@
                 <input type="number" class="form-control" id="txtprofin" placeholder="name@example.com" th:field="*{profin}">
                 <label for="txtprofin">Ingrese nota del Proyecto Final</label>
             </div>
-            <button type="submit" class="btn btn-success">Calcular Promedio</button>
+            <button type="submit" class="btn btn-primary">Calcular Promedio</button>
             <hr/>
             <div th:if="${verresultado}" class="alert alert-dark" role="alert">
                <spam th:text="${resultado} ?: ''"></spam>
