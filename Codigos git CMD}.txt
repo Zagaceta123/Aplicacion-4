@@ -13,4 +13,4 @@ git log 								|visualiar los commits que has hecho
 7. git branch								|visualizar la master oadicionales
 git remote add origin https://github.com/Zagaceta123/Aplicacion-4.git	| agregar al remoto y poder subir al github
 8. git push origin master						|Pasa subir a gitub
-9. git remote set-url origin https://Zagaceta123github.com/Zagaceta123/Aplicacion-4.git		| con este comando se resetea para poder subir o tambien se puede modificar desde la carpeta.git si es que no deja subir al git hub con el paso 8
+9. git remote set-url origin https://Zagaceta123@github.com/Zagaceta123/Aplicacion-4.git		| con este comando se resetea para poder subir o tambien se puede modificar desde la carpeta.git si es que no deja subir al git hub con el paso 8
